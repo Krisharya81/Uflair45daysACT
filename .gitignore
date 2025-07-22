@@ -1,0 +1,14 @@
+# Ignore compiled libraries and large binaries
+*.dll
+*.lib
+
+# Ignore Python packages accidentally copied
+Deep Learning(Upflair)/CNN(Image_Processing)/ASL YOLO/asl/Lib/site-packages/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
